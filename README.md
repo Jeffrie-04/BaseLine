@@ -19,8 +19,9 @@ Open http://127.0.0.1:8000/health → `{"status":"ok"}`. Interactive API docs: h
 ## Development
 
 ```bash
-uv tool install pre-commit && pre-commit install   # from the repo root: lint + format on every commit
-cd backend && uv run pytest                         # run tests
+# from BaseLine/backend (where Quickstart leaves you)
+uv tool install pre-commit && pre-commit install
+uv run pytest
 ```
 
 ## Project structure
